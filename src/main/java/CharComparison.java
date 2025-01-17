@@ -22,15 +22,18 @@ public class CharComparison {
 
         // int lexOrder2 = java.util.Arrays.compare(a, b);  // Arrays.compare(a, b) method on char[] works too
         int lexOrder = aStr.compareTo(bStr);
+        
         // if aStr & bStr are lexographically equal ... i.e., char 'c' is before char 'd' --- c > d
         if(lexOrder == 0){
             // indicate so
             return 0;
         }
+
         /* else if aStr < bStr ... */
         // else if(lexOrder < 0){
         //     return (-1);
         // }
+
         /* else if aStr > bStr ... */
         // else{
         //     return 1;
